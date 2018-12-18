@@ -357,18 +357,6 @@ a.article-title:hover,
     float: none;
   }
 }
-.menu {
-  margin: 0;
-  height: header-sub-heigh;
-}
-.menu:before,
-.menu:after {
-  content: "";
-  display: table;
-}
-.menu:after {
-  clear: both;
-}
 .article {
   margin: 35px 0px 0px 0px;
   border-bottom: 1px solid #ddd;
