@@ -281,7 +281,7 @@ a.article-title:hover,
 }
 #header {
   margin-top: 15px;
-  font-size: 40px;
+  font-size: 19px;
   position: relative;
 }
 #header.mobile-on #main-nav,
@@ -324,7 +324,7 @@ a.article-title:hover,
 }
 #main-nav-toggle {
   display: none;
-  font-size: 16px;
+  font-size: 26px;
   margin-left: -15px;
   font-family: FontAwesome;
 }
