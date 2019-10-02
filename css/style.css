@@ -310,7 +310,7 @@ a.article-title:hover,
   -moz-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  display: none;
+  display: block;
   padding: 20px 15px;
 }
 .main-nav-link {
