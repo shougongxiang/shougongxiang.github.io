@@ -286,7 +286,7 @@ a.article-title:hover,
 }
 #header.mobile-on #main-nav,
 #header.mobile-on #sub-nav {
-  display: none;
+  display: block;
 }
 #header-outer {
   height: 100%;
@@ -333,7 +333,7 @@ a.article-title:hover,
 }
 @media screen and (max-width: 839px) {
   #main-nav-toggle {
-    display: none;
+    display: block;
   }
 }
 #logo {
@@ -343,7 +343,7 @@ a.article-title:hover,
   #logo {
     float: none;
     margin: 0 auto;
-    display: none;
+    display: block;
     background-position: center;
   }
 }
