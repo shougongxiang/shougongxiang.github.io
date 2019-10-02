@@ -160,7 +160,7 @@ body {
 }
 .logo-text {
   width: auto;
-  color: #000;
+  color: #ccc;
   font-size: 44px;
   font-weight: 700;
   line-height: 57px;
@@ -280,7 +280,7 @@ a.article-title:hover,
   font-weight: bold;
 }
 #header {
-  margin-top: 25px;
+  margin-bottom: 5px;
   font-size: 14px;
   position: relative;
 }
