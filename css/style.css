@@ -286,7 +286,7 @@ a.article-title:hover,
 }
 #header.mobile-on #main-nav,
 #header.mobile-on #sub-nav {
-  display: block;
+  display: none;
 }
 #header-outer {
   height: 100%;
