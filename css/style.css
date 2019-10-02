@@ -280,9 +280,9 @@ a.article-title:hover,
   font-weight: bold;
 }
 #header {
+  margin-top: 15px;
   font-size: 14px;
   position: relative;
-  border-bottom: 1px solid #ddd;
 }
 #header.mobile-on #main-nav,
 #header.mobile-on #sub-nav {
@@ -291,6 +291,7 @@ a.article-title:hover,
 #header-outer {
   height: 100%;
   position: relative;
+  border-bottom: 2px solid #ddd;
 }
 #header-inner {
   position: relative;
@@ -313,7 +314,7 @@ a.article-title:hover,
   padding: 20px 15px;
 }
 .main-nav-link {
-  font-weight: 600;
+  font-weight: 500;
 }
 @media screen and (max-width: 839px) {
   .main-nav-link {
