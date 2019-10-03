@@ -280,8 +280,8 @@ a.article-title:hover,
   font-weight: bold;
 }
 #header {
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 15px;
+  font-size: 19px;
   position: relative;
 }
 #header.mobile-on #main-nav,
@@ -302,7 +302,8 @@ a.article-title:hover,
   margin-left: -15px;
 }
 .main-nav-link,
-#main-nav-toggle {
+#main-nav-toggle,
+.search-form-submit {
   float: left;
   color: #000;
   text-decoration: none;
@@ -359,6 +360,49 @@ a.article-title:hover,
   #sub-nav {
     display: none;
   }
+}
+#search-form-wrap {
+  top: 15px;
+  padding: 20px 15px;
+}
+@media screen and (max-width: 839px) {
+  #search-form-wrap {
+    text-align: center;
+  }
+}
+.search-form:before,
+.search-form:after {
+  content: "";
+  display: table;
+}
+.search-form:after {
+  clear: both;
+}
+@media screen and (max-width: 839px) {
+  .search-form {
+    display: inline-block;
+  }
+}
+.search-form-input {
+  width: 150px;
+  border: none;
+  float: left;
+  font-size: 14px;
+  background: none;
+  color: #111;
+  outline: none;
+}
+.search-form-input::-webkit-search-results-decoration,
+.search-form-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+.search-form-submit {
+  float: left;
+  padding: 0;
+  font-family: FontAwesome;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 .article {
   margin: 35px 0px 0px 0px;
