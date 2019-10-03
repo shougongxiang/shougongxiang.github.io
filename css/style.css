@@ -299,7 +299,6 @@ a.article-title:hover,
 }
 #main-nav {
   float: left;
-  margin-left: 15px;
 }
 .main-nav-link,
 #main-nav-toggle {
@@ -311,7 +310,7 @@ a.article-title:hover,
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
   display: block;
-  padding: 20px 15px;
+  padding: 20px 10px;
 }
 .main-nav-link {
   font-weight: 500;
@@ -319,7 +318,7 @@ a.article-title:hover,
 @media screen and (max-width: 839px) {
   .main-nav-link {
     float: none;
-    text-align: center;
+    text-align: left;
   }
 }
 #main-nav-toggle {
