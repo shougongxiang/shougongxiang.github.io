@@ -298,12 +298,12 @@ a.article-title:hover,
   overflow: hidden;
 }
 #main-nav {
-  float: left;
+  float: right;
   margin-left: -15px;
 }
 .main-nav-link,
 #main-nav-toggle {
-  float: left;
+  float: right;
   color: #000;
   text-decoration: none;
   -webkit-transition: opacity 0.2s;
