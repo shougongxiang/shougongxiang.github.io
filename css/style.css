@@ -344,7 +344,7 @@ a.article-title:hover,
     float: none;
     margin: 0 auto;
     display: block;
-    background-position: left;
+    background-position: center;
   }
 }
 #sub-nav {
@@ -352,12 +352,12 @@ a.article-title:hover,
 }
 #main-nav,
 #sub-nav {
-  float: right;
+  float: none;
 }
 @media screen and (max-width: 839px) {
   #main-nav,
   #sub-nav {
-    display: block;
+    display: none;
   }
 }
 .article {
