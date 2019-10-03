@@ -299,7 +299,7 @@ a.article-title:hover,
 }
 #main-nav {
   float: left;
-  margin-left: -15px;
+  margin-left: 15px;
 }
 .main-nav-link,
 #main-nav-toggle {
