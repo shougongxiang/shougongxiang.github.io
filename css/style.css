@@ -342,7 +342,7 @@ a.article-title:hover,
 }
 @media screen and (max-width: 839px) {
   #logo {
-    float: none;
+    float: left;
     margin: 0 auto;
     display: block;
     background-position: center;
