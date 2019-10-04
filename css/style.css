@@ -356,10 +356,6 @@ a.article-title:hover,
   float: right;
 }
 @media screen and (max-width: 839px) {
-  #main-nav,
-  #sub-nav {
-    display: none;
-  }
 }
 .article {
   margin: 35px 0px 0px 0px;
