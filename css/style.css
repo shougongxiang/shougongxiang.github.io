@@ -325,8 +325,9 @@ a.article-title:hover,
 #main-nav-toggle {
   display: none;
   font-size: 16px;
-  margin-right: -15px;
+  margin-left: -15px;
   font-family: FontAwesome;
+  float: right;
 }
 #main-nav-toggle:before {
   content: "\f0c9";
