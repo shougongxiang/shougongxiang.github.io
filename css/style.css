@@ -327,7 +327,6 @@ a.article-title:hover,
   font-size: 16px;
   margin-left: -15px;
   font-family: FontAwesome;
-  float: right;
 }
 #main-nav-toggle:before {
   content: "\f0c9";
@@ -351,15 +350,11 @@ a.article-title:hover,
 #sub-nav {
   float: right;
 }
-#main-nav,
-#sub-nav {
-  float: right;
-}
 @media screen and (max-width: 839px) {
   #main-nav,
   #sub-nav {
     display: none;
-    text-align: center;
+    float: rnone;
   }
 }
 .article {
