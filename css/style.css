@@ -412,6 +412,7 @@ a.article-title:hover,
 .article-banner {
   width: 100%;
   height: auto;
+  margin: 10px 0px 0px 0px;
 }
 .article-header {
   margin-top: 18px;
