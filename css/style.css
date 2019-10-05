@@ -281,7 +281,7 @@ a.article-title:hover,
 }
 #header {
   margin-top: 15px;
-  font-size: 19px;
+  font-size: 17px;
   position: relative;
 }
 #header.mobile-on #main-nav,
@@ -362,7 +362,7 @@ a.article-title:hover,
   }
 }
 .article {
-  margin: 35px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
   border-bottom: 1px solid #ddd;
 }
 .article-inner {
@@ -417,7 +417,7 @@ a.article-title:hover,
   margin-bottom: 8px;
 }
 .article-title {
-  font-size: 1.9em;
+  font-size: 1.6em;
   font-weight: 500;
   line-height: 1em;
 }
