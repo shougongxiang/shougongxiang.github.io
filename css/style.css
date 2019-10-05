@@ -318,7 +318,7 @@ a.article-title:hover,
 }
 @media screen and (max-width: 839px) {
   .main-nav-link {
-    float: none;
+    float: right;
     text-align: center;
   }
 }
@@ -327,7 +327,6 @@ a.article-title:hover,
   font-size: 16px;
   margin-left: -15px;
   font-family: FontAwesome;
-  float: right;
 }
 #main-nav-toggle:before {
   content: "\f0c9";
@@ -342,7 +341,7 @@ a.article-title:hover,
 }
 @media screen and (max-width: 839px) {
   #logo {
-    float: none;
+    float: left;
     margin: 0 auto;
     display: block;
     background-position: center;
